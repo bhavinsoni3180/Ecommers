@@ -5,6 +5,7 @@ import Products from './pages/products'
 import About from './pages/about'
 import Contact from './pages/contact'
 import Navbar from './components/navbar'
+import Cart from './pages/cart'
 
 const App = () => {
   return (
