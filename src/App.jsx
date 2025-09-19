@@ -3,9 +3,15 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 const App = () => {
   return (
-    <div className="text-red-500 text-4xl">
-      This is Bhavin Lodhiya
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<home/>} />
+        <Route path='/about' element={<about/>} />
+        <Route path='/products' element={<products/>} />
+        <Route path='/contact' element={<contact/>} />
+        <Route path='/cart' element={<cart/>} />
+      </Routes> 
+    </BrowserRouter>
   )
 }
 
