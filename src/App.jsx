@@ -1,5 +1,11 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import home from './pages/home'
+import about from './pages/about'
+import products from './pages/products'
+import contact from './pages/contact'
+import cart from './pages/cart'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
