@@ -7,7 +7,6 @@ import Contact from './pages/contact'
 import Products from './pages/products'
 import Navbar from './components/navbar'
 
-
 const App = () => {
   return (
     <BrowserRouter>
