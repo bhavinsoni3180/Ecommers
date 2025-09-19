@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 const App = () => {
   return (
     <BrowserRouter>
+    <Navbar/>
       <Routes>
         <Route path='/' element={<home/>} />
         <Route path='/about' element={<about/>} />
